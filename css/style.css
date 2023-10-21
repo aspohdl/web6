@@ -6,3 +6,6 @@ img.footer {
     display: block;
     width: 50px;
 }
+th {
+    padding: 5px;
+}
