@@ -9,3 +9,22 @@ img.footer {
 th {
     padding: 5px;
 }
+nav { background-color: black;}
+.nav-flex
+{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ flex-wrap: nowrap;
+ margin-top: -8px;
+ margin-bottom: -8px;
+ padding-left: 80px;
+}
+.nav-flex-item
+{
+list-style-type: none;
+padding: 10px;
+margin-right: 20px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+background-color: #AA96DA;
+}
