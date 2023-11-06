@@ -17,6 +17,12 @@ img.about-me
 	width: 150px;
 	height: 150px;
 }
+img.about-me.two
+{
+	float: left;
+    padding-right: 20px;
+    padding-left: 0px;
+}
 p {
     font-family: "Golos Text";
 }
@@ -121,6 +127,30 @@ table {
     border-left: 8rem solid black;
     border-right: 8rem solid black;
  }
+ table.summary {
+    margin-top: 40px;
+	border-collapse: collapse;
+	color: #201f28;
+	border: 1px solid gray;
+	width: 100%;
+ }
+ td.summary {
+    border-left: 0px;
+    border-right: 0px;
+    padding: 10px;
+	border: 1px solid gray;
+
+ }
+ th.summary {
+    text-align: center;
+    color: white;
+	background: black;
+	padding: 10px;
+ }
+ tr.summary:nth-child(odd) 
+{
+	background: #daedff;
+}
  .services {
     height: 250px;
 	display: flex;
