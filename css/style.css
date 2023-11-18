@@ -139,7 +139,11 @@ table {
     border-right: 0px;
     padding: 10px;
 	border: 1px solid gray;
-
+    font-family: "Golos Text";
+    color: black;
+ }
+ td.summary.third {
+    text-align: left;
  }
  th.summary {
     text-align: center;
@@ -150,6 +154,32 @@ table {
  tr.summary:nth-child(odd) 
 {
 	background: #daedff;
+}
+.table-contacts
+{
+	margin-top: 0px;
+	border-collapse: separate;
+	border-spacing: 30px;
+	color: rgb(255, 255, 255);
+	border: none;
+	width: 100%;
+}
+.td-contacts
+{
+	text-align: center;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 12px;
+	background: black;
+}
+.td-contacts:nth-child(odd) 
+{
+	width: 33%;
+}
+
+.td-contacts:nth-child(even) 
+{
+	width: 33%;
 }
  .services {
     height: 250px;
@@ -169,6 +199,10 @@ table {
     font-family: "Golos Text";
    }
 .btn:hover { background-color: gray; }
+ul.summary {
+    font-family: "Golos Text";
+    color: black;
+}
 /* golos-text-regular - cyrillic */
 @font-face {
     font-display: swap;

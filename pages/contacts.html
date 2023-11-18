@@ -3,9 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/35d6e9cbdd.js" crossorigin="anonymous"></script>
     <title>Контакты</title>
 </head>
 <body>
-    тут ничего нет потому что я никто
+    <nav>
+        <ul class="nav-flex">
+            <li class="nav-flex-item logo"><a href="../index.html"><img src="../images/logo.jpg" class="logo"></a></li>
+            <li class="nav-flex-item"><a href="../index.html">| О себе</a></li>
+            <li class="nav-flex-item"><a href="../pages/summary.html">| Резюме</a></li>
+            <li class="nav-flex-item"><a href="../pages/portfolio.html">| Портфолио</a></li>
+            <li class="nav-flex-item"><a href="../index.html#competencies">| Компетенции</a></li>
+            <li class="nav-flex-item"><a href="../pages/contacts.html">| Контакты</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="header">Персональный сайт, Чистякова Алёна</h1>
+        <h2 class="header1">Веб-технологии</h2>
+    </header>
+    <main>
+        <div class="layer">
+            <table class="table-contacts">
+                <tr>
+                    <td class="td-contacts">
+                        <h3>Я в социальных сетях:</h3>
+                        <p>
+                            <table>
+                                <tr>
+                                    <th><a href="https://vk.com/aspohdl"><img src="../images/VK.png" alt="VK" class="footer"></a></th>
+                                    <th><a href="https://t.me/aspohdl"><img src="../images/tg.png" alt="YouTube" class="footer"></a></th>
+                                    <th><a href="https://github.com/aspohdl"><img src="../images/github.png" alt="GitHub" class="footer"></a></th>
+                                </tr>
+                            </table>
+                        </p>
+                    </td>
+                    <td class="td-contacts">
+                        <h3>Почта:</h3>
+                        <p>chav.22@uni-dubna.ru</p>
+                    </td>
+                    <td class="td-contacts">
+                        <h3>Телефон:</h3>
+                        <p>+7-(914)-931-26-33</p>
+                    </td>
+                </tr>
+               </table> 
+        </div>
+        <div class="layer">
+        <form>
+            <h3>Написать мне <i class="fa-solid fa-star"></i></h2>
+            <div>
+                <label for="name">Имя<em>*</em>: <br></label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="email">Почта:<br></label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label for="comment">Сообщение<em>*</em>:<br></label>
+                <textarea name="comment" id="comment" cols="100" rows="6"></textarea>
+            </div>
+            <div>
+                <input type="submit" class="comp-button" value="Отправить">
+            </div>
+        </form>
+        </div>
+    </main>
+    <footer>
+        <ul class="nav-flex">
+        <li class="nav-flex-item table"><table>
+            <tr>
+                <th><a href="https://vk.com/aspohdl"><img src="../images/VK.png" alt="VK" class="footer"></a></th>
+                <th><a href="https://t.me/aspohdl"><img src="../images/tg.png" alt="YouTube" class="footer"></a></th>
+                <th><a href="https://github.com/aspohdl"><img src="../images/github.png" alt="GitHub" class="footer"></a></th>
+            </tr>
+        </table></li>
+        <li class="nav-flex-item cp">Сайт разработан Чистяковой Алёной. Все права (их нет) защищены © 2023</li>
+        </ul>
+    </footer>
 </body>
 </html>
